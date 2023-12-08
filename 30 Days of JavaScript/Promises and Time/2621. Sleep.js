@@ -3,5 +3,4 @@ async function sleep(millis) {
 }
 
 let t = Date.now()
-console.log(t)
 sleep(100).then(() => console.log(Date.now() - t)) // 100
